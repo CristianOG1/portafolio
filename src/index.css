@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  --font-serif: "Poppins", sans-serif;
+  --font-mono: "Poppins", sans-serif;
+  
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 0;
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-zinc-900 font-sans text-zinc-300 antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "ss01" on, "cv11" on;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-white;
+  }
+
+  ::selection {
+    @apply bg-white text-black;
+  }
+
+  :where(a, button, input, textarea, select, [tabindex]):focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 4px;
+  }
+
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  img {
+    @apply select-none;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #18181b;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #3f3f46;
+    border: 2px solid #18181b;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #52525b;
+  }
+}
+
+@layer utilities {
+  .dot-grid {
+    background-image: radial-gradient(
+      circle at center,
+      rgb(255 255 255 / 0.16) 0.7px,
+      transparent 0.8px
+    );
+    background-size: 22px 22px;
+  }
+
+  .line-grid {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.045) 1px, transparent 1px);
+    background-size: 72px 72px;
+  }
+
+  .portrait-fallback {
+    background:
+      radial-gradient(circle at 30% 18%, #2a2a2a 0%, #171717 42%, #0a0a0a 100%);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Impresión / Guardar como PDF
+   La intención es que el CV salga en blanco y negro, sin fondos pesados,
+   sin navegación y sin elementos decorativos.
+   -------------------------------------------------------------------------- */
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    background-color: #fff !important;
+    color: #111 !important;
+  }
+
+  body {
+    font-size: 10.5pt;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  * {
+    color: #111 !important;
+    background-color: transparent !important;
+    border-color: #d4d4d4 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  .print-break-avoid {
+    break-inside: avoid;
+  }
+
+  .print-hide-art {
+    display: none !important;
+  }
+
+  .print-photo {
+    filter: grayscale(1) !important;
+  }
+
+  .portrait-fallback {
+    background: #fff !important;
+  }
+
+  .line-grid,
+  .dot-grid {
+    background-image: none !important;
+  }
+
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  section {
+    break-inside: avoid;
+  }
+}

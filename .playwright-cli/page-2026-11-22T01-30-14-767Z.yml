@@ -1,0 +1,298 @@
+- generic [ref=f11e3]:
+  - link "Saltar al contenido" [ref=f11e4] [cursor=pointer]:
+    - /url: "#contenido"
+  - banner [ref=f11e5]:
+    - generic [ref=f11e6]:
+      - link "CristianOG, ir al inicio" [ref=f11e7] [cursor=pointer]:
+        - /url: "#inicio"
+        - text: Cristian
+        - generic [ref=f11e8]: OG
+      - navigation "Navegación principal" [ref=f11e9]:
+        - link "Inicio" [ref=f11e10] [cursor=pointer]:
+          - /url: "#inicio"
+        - link "Estudios" [ref=f11e12] [cursor=pointer]:
+          - /url: "#estudios"
+        - link "Habilidades" [ref=f11e13] [cursor=pointer]:
+          - /url: "#habilidades"
+        - link "Proyectos" [ref=f11e14] [cursor=pointer]:
+          - /url: "#proyectos"
+        - link "Contacto" [ref=f11e15] [cursor=pointer]:
+          - /url: "#contacto"
+      - button "Imprimir CV" [ref=f11e17]
+  - main [ref=f11e22]:
+    - generic [ref=f11e24]:
+      - generic [ref=f11e25]:
+        - generic [ref=f11e26]:
+          - generic [ref=f11e27]:
+            - generic [ref=f11e28]: Disponible para nuevos proyectos
+            - generic [ref=f11e32]: Portafolio de evidencias · 2026
+          - heading "Cristian Olmos González" [level=1] [ref=f11e33]:
+            - generic [ref=f11e34]: Cristian
+            - generic [ref=f11e35]: Olmos
+            - generic [ref=f11e36]: González
+          - paragraph [ref=f11e37]: Ingeniero en Desarrollo y Gestión de Software
+          - paragraph [ref=f11e38]: Desarrollador enfocado en aplicaciones web, móviles y videojuegos 2D, con experiencia en arquitectura cliente-servidor, bases de datos relacionales con seguridad RLS y despliegue en la nube.
+          - generic [ref=f11e39]:
+            - link "Ver proyectos" [ref=f11e40] [cursor=pointer]:
+              - /url: "#proyectos"
+            - button "Imprimir CV" [ref=f11e43]
+          - generic [ref=f11e48]:
+            - link "cristian.olmos.dev@gmail.com" [ref=f11e49] [cursor=pointer]:
+              - /url: mailto:cristian.olmos.dev@gmail.com
+            - link "GitHub" [ref=f11e54] [cursor=pointer]:
+              - /url: https://github.com/CristianOG1
+            - link "LinkedIn" [ref=f11e57] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/cristian-og
+        - generic [ref=f11e60]:
+          - generic [ref=f11e61]:
+            - generic [ref=f11e64]:
+              - generic [ref=f11e65]: CO
+              - generic [ref=f11e66]: Cristian Olmos
+            - generic [ref=f11e67]:
+              - generic [ref=f11e68]: Estado de México
+              - generic [ref=f11e72]: MX
+          - generic [ref=f11e73]: Ingeniería de software aplicada a productos reales.
+      - generic [ref=f11e76]:
+        - generic [ref=f11e77]:
+          - paragraph [ref=f11e78]: Enfoque
+          - paragraph [ref=f11e79]: Web, móvil y videojuegos 2D
+        - generic [ref=f11e80]:
+          - paragraph [ref=f11e81]: Base
+          - paragraph [ref=f11e82]: Estado de México, México
+        - generic [ref=f11e83]:
+          - paragraph [ref=f11e84]: Disponibilidad
+          - paragraph [ref=f11e85]: Abierto a oportunidades
+    - generic [ref=f11e87]:
+      - generic [ref=f11e89]:
+        - generic [ref=f11e90]:
+          - generic [aria-hidden] [ref=f11e91]: "01"
+          - generic [ref=f11e92]:
+            - heading "Estudios" [level=2] [ref=f11e93]
+            - paragraph [ref=f11e94]: Formación académica orientada al desarrollo de software, la arquitectura de sistemas y la gestión de proyectos tecnológicos.
+        - generic [ref=f11e95]: Egresado
+      - generic [ref=f11e100]:
+        - article [ref=f11e102]:
+          - generic [ref=f11e103]: Egresado
+          - heading "Ingeniería en Desarrollo y Gestión de Software" [level=3] [ref=f11e110]
+          - paragraph [ref=f11e111]: Universidad Tecnológica Fidel Velázquez
+          - paragraph [ref=f11e112]: Estado de México, México
+          - paragraph [ref=f11e116]: "Formación enfocada en el ciclo completo del software: análisis de requerimientos, arquitectura cliente-servidor, modelado de datos, desarrollo de aplicaciones y gestión de proyectos tecnológicos."
+          - generic [ref=f11e117]:
+            - generic [ref=f11e118]: Arquitectura cliente-servidor
+            - generic [ref=f11e120]: Bases de datos relacionales
+            - generic [ref=f11e122]: Desarrollo web y móvil
+            - generic [ref=f11e124]: Gestión de proyectos de software
+        - article [ref=f11e127]:
+          - generic [ref=f11e128]:
+            - generic [ref=f11e129]: Proyecto integrador
+            - generic [ref=f11e130]: DGS-1002
+          - heading "BarberWeb" [level=3] [ref=f11e131]
+          - paragraph [ref=f11e132]: Plataforma web multi-tenant para barberías, desarrollada como evidencia integradora de la carrera.
+          - list [ref=f11e133]:
+            - listitem [ref=f11e134]: Catálogo y agenda de citas en 3 pasos
+            - listitem [ref=f11e137]: Portal de cliente y paneles de administración
+            - listitem [ref=f11e140]: 23 políticas RLS y Edge Functions en Supabase
+          - link "Ver proyecto" [ref=f11e143] [cursor=pointer]:
+            - /url: "#proyectos"
+    - generic [ref=f11e148]:
+      - generic [ref=f11e150]:
+        - generic [ref=f11e151]:
+          - generic [aria-hidden] [ref=f11e152]: "02"
+          - generic [ref=f11e153]:
+            - heading "Habilidades" [level=2] [ref=f11e154]
+            - paragraph [ref=f11e155]: Tecnologías y herramientas que uso para construir productos de principio a fin, desde la interfaz hasta la base de datos y el despliegue.
+        - generic [ref=f11e156]: 4 áreas técnicas
+      - generic [ref=f11e158]:
+        - article [ref=f11e160]:
+          - generic [aria-hidden] [ref=f11e167]: "01"
+          - heading "Lenguajes de Programación" [level=3] [ref=f11e168]
+          - generic [ref=f11e169]:
+            - generic [ref=f11e170]: JavaScript (ES6+/JSX)
+            - generic [ref=f11e171]: TypeScript
+            - generic [ref=f11e172]: C#
+            - generic [ref=f11e173]: Dart
+            - generic [ref=f11e174]: SQL
+        - article [ref=f11e176]:
+          - generic [aria-hidden] [ref=f11e183]: "02"
+          - heading "Frameworks y Librerías" [level=3] [ref=f11e184]
+          - generic [ref=f11e185]:
+            - generic [ref=f11e186]: React 19
+            - generic [ref=f11e187]: Next.js
+            - generic [ref=f11e188]: React Native
+            - generic [ref=f11e189]: Flutter
+            - generic [ref=f11e190]: Tailwind CSS
+            - generic [ref=f11e191]: Vite
+            - generic [ref=f11e192]: Strapi v5
+        - article [ref=f11e194]:
+          - generic [aria-hidden] [ref=f11e201]: "03"
+          - heading "Bases de Datos" [level=3] [ref=f11e202]
+          - generic [ref=f11e203]:
+            - generic [ref=f11e204]: PostgreSQL (Supabase)
+            - generic [ref=f11e205]: SQLite
+        - article [ref=f11e207]:
+          - generic [aria-hidden] [ref=f11e212]: "04"
+          - heading "Plataformas, Motores y Herramientas" [level=3] [ref=f11e213]
+          - generic [ref=f11e214]:
+            - generic [ref=f11e215]: Supabase (Auth, Storage, Edge Functions con Deno, RLS)
+            - generic [ref=f11e216]: Unity 6 (URP 2D)
+            - generic [ref=f11e217]: Cloudflare
+            - generic [ref=f11e218]: Vercel
+            - generic [ref=f11e219]: Git
+            - generic [ref=f11e220]: GitHub
+            - generic [ref=f11e221]: Node.js
+            - generic [ref=f11e222]: pnpm
+    - generic [ref=f11e224]:
+      - generic [ref=f11e226]:
+        - generic [ref=f11e227]:
+          - generic [aria-hidden] [ref=f11e228]: "03"
+          - generic [ref=f11e229]:
+            - heading "Proyectos" [level=2] [ref=f11e230]
+            - paragraph [ref=f11e231]: Evidencias de trabajo en aplicaciones web, comercio electrónico, videojuegos y aplicaciones móviles. Cada proyecto documenta el contexto, el stack y mi participación.
+        - generic [ref=f11e232]: 05 proyectos
+      - generic [ref=f11e234]:
+        - article [ref=f11e236]:
+          - generic [ref=f11e237]:
+            - generic [ref=f11e238]:
+              - generic [ref=f11e239]: Proyecto destacado
+              - generic [ref=f11e241]: 01 / 05
+            - generic [ref=f11e250]:
+              - heading "BarberWeb" [level=3] [ref=f11e251]
+              - paragraph [ref=f11e252]: Sistema Web Multi-Tenant para Barberías
+            - paragraph [ref=f11e253]: "Plataforma web para la gestión integral de barberías: catálogo de servicios, agenda de citas en tres pasos, portal de cliente, panel de administración y panel superadmin. La seguridad de los datos se resuelve con 23 políticas RLS y Edge Functions en Supabase."
+            - generic [ref=f11e254]: "Rol: Desarrollo Front-end y Coordinación Técnica"
+            - list [ref=f11e259]:
+              - listitem [ref=f11e260]: Arquitectura multi-tenant
+              - listitem [ref=f11e262]: Agenda de citas en 3 pasos
+              - listitem [ref=f11e264]: 23 políticas RLS
+              - listitem [ref=f11e266]: Despliegue en Cloudflare y Vercel
+            - generic [ref=f11e269]:
+              - generic [ref=f11e270]: React 19
+              - generic [ref=f11e271]: Vite
+              - generic [ref=f11e272]: Tailwind CSS
+              - generic [ref=f11e273]: Supabase
+              - generic [ref=f11e274]: PostgreSQL
+              - generic [ref=f11e275]: RLS
+              - generic [ref=f11e276]: Edge Functions
+              - generic [ref=f11e277]: Cloudflare
+              - generic [ref=f11e278]: Vercel
+            - generic [ref=f11e279]:
+              - generic "Enlace disponible próximamente" [ref=f11e280]:
+                - text: Repositorio
+                - generic [ref=f11e283]: ", disponible próximamente"
+              - generic "Enlace disponible próximamente" [ref=f11e284]:
+                - text: Demo
+                - generic [ref=f11e288]: ", disponible próximamente"
+          - generic [ref=f11e304]:
+            - generic [ref=f11e305]: Sistema multi-tenant
+            - generic [ref=f11e306]: 01 / 05
+        - generic [ref=f11e307]:
+          - article [ref=f11e309]:
+            - generic [ref=f11e310]: "02"
+            - generic [ref=f11e332]:
+              - generic [ref=f11e333]: 02 / 05
+              - heading "Tienda Web" [level=3] [ref=f11e339]
+              - paragraph [ref=f11e340]: E-Commerce Full-Stack
+              - paragraph [ref=f11e341]: Tienda en línea con arquitectura desacoplada y un panel de administración para gestionar productos, categorías e imágenes alojadas en la nube.
+              - paragraph [ref=f11e342]: "Rol: Desarrollo Full-Stack"
+              - generic [ref=f11e344]:
+                - generic [ref=f11e345]: Next.js
+                - generic [ref=f11e346]: React
+                - generic [ref=f11e347]: TypeScript
+                - generic [ref=f11e348]: Strapi v5
+                - generic [ref=f11e349]: SQLite
+              - link "Repositorio" [ref=f11e351] [cursor=pointer]:
+                - /url: https://github.com/CristianOG1/proyecto-tienda
+          - article [ref=f11e358]:
+            - generic [ref=f11e359]: "03"
+            - generic [ref=f11e372]:
+              - generic [ref=f11e373]: 03 / 05
+              - heading "Corcelio" [level=3] [ref=f11e378]
+              - paragraph [ref=f11e379]: Videojuego 2D Endless Runner
+              - paragraph [ref=f11e380]: Videojuego multiplataforma para Android y Windows con tres niveles, dificultad progresiva, enemigos con patrones lineales y senoidales, sistema de vidas y puntos, y modal de Términos y Condiciones.
+              - paragraph [ref=f11e381]: "Rol: Diseño y Desarrollo de Videojuego"
+              - generic [ref=f11e383]:
+                - generic [ref=f11e384]: Unity 6
+                - generic [ref=f11e385]: C#
+                - generic [ref=f11e386]: URP 2D
+                - generic [ref=f11e387]: Input System
+              - generic [ref=f11e388]:
+                - generic "Enlace disponible próximamente" [ref=f11e389]:
+                  - text: Repositorio
+                  - generic [ref=f11e392]: ", disponible próximamente"
+                - generic "Enlace disponible próximamente" [ref=f11e393]:
+                  - text: Demo
+                  - generic [ref=f11e397]: ", disponible próximamente"
+          - article [ref=f11e399]:
+            - generic [ref=f11e400]: "04"
+            - generic [ref=f11e415]:
+              - generic [ref=f11e416]: 04 / 05
+              - heading "Delivery App" [level=3] [ref=f11e421]
+              - paragraph [ref=f11e422]: Aplicación Móvil para Android
+              - paragraph [ref=f11e423]: Aplicación móvil enfocada en la gestión y el seguimiento de entregas a domicilio, con una interfaz pensada para consultar pedidos y su estado.
+              - paragraph [ref=f11e424]: "Rol: Desarrollo Móvil"
+              - generic [ref=f11e426]:
+                - generic [ref=f11e427]: Flutter
+                - generic [ref=f11e428]: Dart
+              - generic "Enlace disponible próximamente" [ref=f11e430]:
+                - text: Demo
+                - generic [ref=f11e434]: ", disponible próximamente"
+          - article [ref=f11e436]:
+            - generic [ref=f11e437]: "05"
+            - generic [ref=f11e450]:
+              - generic [ref=f11e451]: 05 / 05
+              - heading "Mi Bolsillo" [level=3] [ref=f11e457]
+              - paragraph [ref=f11e458]: App de Gestión de Gastos (PWA)
+              - paragraph [ref=f11e459]: Aplicación web progresiva para el control de finanzas personales y el registro de gastos, con una experiencia instalable y ligera.
+              - paragraph [ref=f11e460]: "Rol: Desarrollo de Aplicación"
+              - generic [ref=f11e462]:
+                - generic [ref=f11e463]: React Native
+                - generic [ref=f11e464]: PWA
+              - generic "Enlace disponible próximamente" [ref=f11e466]:
+                - text: Demo
+                - generic [ref=f11e470]: ", disponible próximamente"
+      - link "Más proyectos en GitHub" [ref=f11e472] [cursor=pointer]:
+        - /url: https://github.com/CristianOG1
+  - contentinfo [ref=f11e478]:
+    - generic [ref=f11e479]:
+      - generic [ref=f11e480]:
+        - generic [ref=f11e481]:
+          - paragraph [ref=f11e482]: Contacto
+          - heading "Hablemos de tu próximo proyecto." [level=2] [ref=f11e483]
+          - paragraph [ref=f11e484]: Estoy abierto a oportunidades en desarrollo web, aplicaciones móviles y videojuegos. Si quieres revisar el código de algún proyecto, escríbeme y con gusto comparto el repositorio.
+          - generic [ref=f11e485]:
+            - link "Escríbeme" [ref=f11e486] [cursor=pointer]:
+              - /url: mailto:cristian.olmos.dev@gmail.com
+            - link "GitHub" [ref=f11e493] [cursor=pointer]:
+              - /url: https://github.com/CristianOG1
+          - button "Guardar como PDF" [ref=f11e499]
+        - generic [ref=f11e504]:
+          - list [ref=f11e505]:
+            - listitem [ref=f11e506]:
+              - link "Correo cristian.olmos.dev@gmail.com" [ref=f11e507] [cursor=pointer]:
+                - /url: mailto:cristian.olmos.dev@gmail.com
+                - generic [ref=f11e512]:
+                  - generic [ref=f11e513]: Correo
+                  - generic [ref=f11e514]: cristian.olmos.dev@gmail.com
+            - listitem [ref=f11e518]:
+              - link "Teléfono +52 55 0000 0000" [ref=f11e519] [cursor=pointer]:
+                - /url: tel:+525500000000
+                - generic [ref=f11e523]:
+                  - generic [ref=f11e524]: Teléfono
+                  - generic [ref=f11e525]: +52 55 0000 0000
+            - listitem [ref=f11e529]:
+              - generic [ref=f11e535]:
+                - generic [ref=f11e536]: Ubicación
+                - generic [ref=f11e537]: Estado de México, México
+            - listitem [ref=f11e538]:
+              - link "LinkedIn in/cristian-og" [ref=f11e539] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/cristian-og
+                - generic [ref=f11e543]:
+                  - generic [ref=f11e544]: LinkedIn
+                  - generic [ref=f11e545]: in/cristian-og
+          - paragraph [ref=f11e549]: Disponible para colaborar en equipos de producto, desarrollo web y proyectos independientes.
+      - generic [ref=f11e550]:
+        - paragraph [ref=f11e551]: © 2026 Cristian Olmos González. Todos los derechos reservados.
+        - generic [ref=f11e552]:
+          - paragraph [ref=f11e553]: Diseñado y desarrollado con React, Tailwind CSS y Framer Motion.
+          - link "Volver al inicio" [ref=f11e554] [cursor=pointer]:
+            - /url: "#inicio"
