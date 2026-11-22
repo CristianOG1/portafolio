@@ -186,15 +186,6 @@ export default function Presentacion() {
                 <IconoGithub className="h-4 w-4" />
                 GitHub
               </a>
-              <a
-                href={perfil.contacto.linkedin}
-                target="_blank"
-                rel="noreferrer"
-                className="group inline-flex items-center gap-2 text-zinc-400 transition-colors duration-300 hover:text-zinc-50"
-              >
-                <IconoLinkedin className="h-4 w-4" />
-                LinkedIn
-              </a>
             </motion.div>
           </motion.div>
 
@@ -213,24 +204,6 @@ export default function Presentacion() {
               </span>
             </div>
           </motion.div>
-        </div>
-
-        <div className="relative grid border-t border-zinc-700 sm:grid-cols-3 print:border-zinc-300">
-          {perfil.datos.map((dato, indice) => (
-            <div
-              key={dato.etiqueta}
-              className={`py-5 sm:px-6 ${
-                indice > 0
-                  ? 'border-t border-zinc-700 sm:border-l sm:border-t-0'
-                  : 'sm:pl-0'
-              } print:border-zinc-300`}
-            >
-              <p className="font-mono text-[10px] tracking-wide text-zinc-500">
-                {dato.etiqueta}
-              </p>
-              <p className="mt-1.5 text-sm text-zinc-300">{dato.valor}</p>
-            </div>
-          ))}
         </div>
       </div>
     </section>

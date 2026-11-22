@@ -132,19 +132,8 @@ export default function PiePagina() {
                 etiqueta="Ubicación"
                 valor={contacto.ubicacion}
               />
-              <FilaContacto
-                icono={IconoLinkedin}
-                etiqueta="LinkedIn"
-                valor={manejoLinkedin}
-                href={contacto.linkedin}
-                externo
-              />
             </ul>
 
-            <p className="mt-5 text-xs leading-6 text-zinc-500">
-              Disponible para colaborar en equipos de producto, desarrollo web y
-              proyectos independientes.
-            </p>
           </Revelar>
         </div>
 
